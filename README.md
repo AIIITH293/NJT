@@ -8,29 +8,24 @@ The results are plotted against `N` on a log scale.
 * Binary search to find c⁺ > 0.6 such that `c = f(c)`
 * Linear search to find  c⁻  minimizing `|c - f(c)|` in a given range
 
-Dependencies 
-
-numpy
-matplotlib
-scipy
 
 2.  `WinProb_Alpha.py`
 
 Studies how alpha (a scaling parameter) and population size `N` influence equilibrium win probabilities. The parameter `c` is found using binary search for each `(alpha, N)` pair, and results are plotted.
 
-Dependencies 
-
-numpy
-matplotlib
-scipy
 
 python WinProb_Alpha.py
 
 Output:  Plot probabilities vs. `alpha` for multiple `N`.
 
 
+Dependencies:  
 
-Installation
+numpy
+matplotlib
+scipy
+
+Installation: 
 
 pip install numpy matplotlib scipy
 
